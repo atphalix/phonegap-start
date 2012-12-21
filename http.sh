@@ -1,4 +1,4 @@
 #!/bin/sh
 #launch http server in current directory
-python -m SimpleHTTPServer 8080
+python -m SimpleHTTPServer 80
 
