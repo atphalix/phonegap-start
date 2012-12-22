@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.phonegap.hello-world"
-        version   = "2.0.0">
+        id        = "com.phonegap.patisserie"
+        version   = "1.0.0">
     <name>Patisserie Marocaine</name>
 
     <description>
-      35 Recettes de patisserie Marocaine
+      30 Recettes de patisserie Marocaine
     </description>
 
     <author href="http://baghrir.tumblr.com" email="el_chakal@hotmail.fr">
