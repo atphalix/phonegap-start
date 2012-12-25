@@ -5,6 +5,7 @@
 <link rel="stylesheet" href="css/jquery.mobile-1.2.0.min.css" />
 	<script src="js/jquery-1.8.2.min.js"></script>
 	<script src="js/jquery.mobile-1.2.0.min.js"></script>
+	<script language="javascript" type="text/javascript" src="http://cd1.inner-active.com/innerActive_nokia.js"></script>
 </head>
 <body>
  <div data-role=header><h1>Losanges aux noix</h1></div>
@@ -43,7 +44,16 @@ Ensuite la pâte verte, puisla pâte N°2.
 Saupoudrer toute la surface de sucre glace, puis couper des losanges à l'aide d'un couteau.<br>
 
 Décorez ensuite chaque losange avec une demi-noix.
-
+<div id="inneractiveBanner"></div>
+<script type="text/javascript">
+  
+    //Mandatory parameter
+    innerActive_aid = "eduapps_PatisserieMarocaine_Android";
+    //Optional parameters
+	innerActive_ad_params.gender = 'f';
+    getInnerActiveAd("inneractiveBanner", "showtext");
+  
+</script>
 <a href="index.html" data-role="button" data-icon="arrow-u">Retour à Liste des recettes</a>	
 	
 </body>

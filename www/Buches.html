@@ -5,6 +5,8 @@
 <link rel="stylesheet" href="css/jquery.mobile-1.2.0.min.css" />
 	<script src="js/jquery-1.8.2.min.js"></script>
 	<script src="js/jquery.mobile-1.2.0.min.js"></script>
+	<script language="javascript" type="text/javascript" src="http://cd1.inner-active.com/innerActive_nokia.js"></script>
+
 </head>
 <body>
  <div data-role=header><h1>Buche</h1></div>
@@ -50,7 +52,16 @@ Déposer ensuite verticalement une petite pièce, sur chaque grande pièce dispo
 Pour décorer, griffer la surface des gâteaux avec une fourchette pour leur donner l'aspect d'une vrais bûche.
 Pour finir, saupoudrer de sucre glace.
 </p>
-
+<div id="inneractiveBanner"></div>
+<script type="text/javascript">
+  
+    //Mandatory parameter
+    innerActive_aid = "eduapps_PatisserieMarocaine_Android";
+    //Optional parameters
+	innerActive_ad_params.gender = 'f';
+    getInnerActiveAd("inneractiveBanner", "showtext");
+  
+</script>
 <a href="index.html" data-role="button" data-icon="arrow-u">Retour à Liste des recettes</a>	
 	
 </body>
