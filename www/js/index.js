@@ -29,14 +29,14 @@ var app = {
         app.report('deviceready');
     },
     report: function(id) {
-        // Report the event in the console
-        console.log("Report: " + id);
+        var innerActive_aid = 'eduapps_PatisserieMarocaine_Android';
+var innerActive_test = 'true';
+innerActive_ad_params.age = '25';
+innerActive_ad_params.gender = 'f';
+	
+	getInnerActiveAd("banner1","");
+	getInnerActiveAd("banner2","showAdText");
+	createInnerActiveSplashAd();	
 
-        // Toggle the state from "pending" to "complete" for the reported ID.
-        // Accomplished by adding .hide to the pending element and removing
-        // .hide from the complete element.
-        document.querySelector('#' + id + ' .pending').className += ' hide';
-        var completeElem = document.querySelector('#' + id + ' .complete');
-        completeElem.className = completeElem.className.split('hide').join('');
     }
 };
