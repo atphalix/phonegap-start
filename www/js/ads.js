@@ -6,7 +6,9 @@ var innerActive_aid = 'eduapps_PatisserieMarocaine_Android';
 var innerActive_test = 'true';
 innerActive_ad_params.age = '25';
 innerActive_ad_params.gender = 'f';
-	
+
+function init()
+{	
 	getInnerActiveAd("banner1","");
 	getInnerActiveAd("banner2","showAdText");
 	createInnerActiveSplashAd();	
@@ -20,4 +22,4 @@ innerActive_ad_params.gender = 'f';
 	adClick1.onclick = function(){
 		showSplash(10);
 	}
-
+}
