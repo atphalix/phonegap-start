@@ -4,11 +4,7 @@
 
 var innerActive_aid = 'eduapps_PatisserieMarocaine_Android';
 var innerActive_test = 'true';
-var innerActive_splash_style = 'split'; // options are 'full', 'split'
-var innerActive_splash_bg_color = '#999'; // color in css hex format e.g. #999
-var innerActive_splash_text_color = '#fff'; // color in css hex format
-var innerActive_splash_border_color = '#333'; // color in css hex format e.g. #333
-innerActive_ad_params.age = '30';
+innerActive_ad_params.age = '25';
 innerActive_ad_params.gender = 'f';
 
 function init()
